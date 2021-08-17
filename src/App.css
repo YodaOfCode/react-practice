@@ -7,6 +7,7 @@
 #root {
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 .App {
@@ -73,4 +74,21 @@
 .page__current {
     border: 2px solid orange;
     font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    weight: 100vw;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.navbar__item {
+    padding: 0 20px;
+}
+
+.app__btns {
+    display: flex;
 }

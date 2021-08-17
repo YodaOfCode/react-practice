@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Select = ({options, defaultValue, value, onChange}) => {
+    console.log(options)
     return (
         <select
             value={value}
